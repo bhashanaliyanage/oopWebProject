@@ -1,0 +1,92 @@
+/* Font */
+body {
+	font-family: candara;
+}
+
+/* Table design */
+table.paleBlueRows {
+	background-color: #EEEEEE;
+	width: 350px;
+	height: 68px;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table.paleBlueRows td, table.paleBlueRows th {
+	border: 1px solid #FFFFFF;
+	padding: 5px;
+}
+
+table.paleBlueRows tbody td {
+	font-size: 13px;
+	color: #000000;
+}
+
+table.paleBlueRows tr:nth-child(even) {
+	background: #D3D3D3;
+}
+
+table.paleBlueRows thead {
+	background: #000000;
+	border-bottom: 5px solid #FFFFFF;
+}
+
+table.paleBlueRows thead th {
+	color: #FFFFFF;
+	text-align: center;
+	border-left: 2px solid #FFFFFF;
+	padding: 5px;
+}
+
+table.paleBlueRows thead th:first-child {
+	border-left: none;
+}
+
+/* Button */
+.btn {
+	background-color: #44c767;
+	border: 1px solid #18ab29;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Verdana;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.btn:active {
+	position: relative;
+	top: 1px;
+}
+
+/* Input */
+.ipt {
+	/* background-color: #44c767; */
+	border: 1px solid #18ab29;
+	display: inline-block;
+	cursor: auto;
+	color: #000000;
+	font-family: Verdana;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.ipt:hover {
+	background-color: #ededed;
+	color: #000000;
+}
+
+.ipt:focus {
+	background-color: #ededed;
+	color: #000000;
+}
+
+/* Input disabled (Greyed) */
+#iptGrey {
+	background-color: #d4d4d4;
+}
